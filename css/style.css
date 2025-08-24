@@ -21,12 +21,6 @@ img {
     z-index: 99999;
 }
 
-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;
-}
-
 .container1 {
     width: 390px;
     height: 45px;
@@ -35,6 +29,12 @@ nav a {
     justify-content: left;
     text-align: center;
     gap: 10px;
+}
+
+nav.list-left a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .container2 {
@@ -75,7 +75,6 @@ main {
 }
 
 .container4big {
-    border: 1px solid black;
     width: 1100px;
     height: 1200px;
     margin-top: 50px;
@@ -88,10 +87,13 @@ main {
 }
 
 .card {
-    border: 1px solid black;
     width: 350px;
     height: 500px;
     position: relative;
+}
+
+.list-price {
+    margin-top: 10px;
 }
 
 .discount {
@@ -119,6 +121,19 @@ main {
     position: absolute;
     right: 0;
     top: 10px;
+}
+
+.sub-img {
+    position: absolute;
+    bottom: 509px;
+}
+
+.card img {
+    position: relative;
+}
+
+.card:hover .sub-img {
+    z-index: -1;
 }
 
 .card :hover.heart {
@@ -158,5 +173,54 @@ main {
     height: 100px;
     background-color: rgb(0, 0, 0);
     margin-top: 50px;
+    
+}
+
+.sub-container3 {
+    width: 540px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sub-sub-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.final-logo-left {
+    color: white;
+    text-align: left;
+}
+
+nav a, .final-info-left {
+    font-size: 13px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.sub-container4 {
+    width: 540px;
+    height: 50px;
+    text-align: right;
+}
+
+.final-words-right {
+    color: white;
+    margin-right: 30px;
+}
+
+.sub-sub-container2 {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.icons-left {
+    width: 30px;
 }
 /* fine footer */
