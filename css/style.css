@@ -77,19 +77,22 @@ main {
 .container4big {
     width: 1100px;
     height: 1200px;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 15px;
+    margin-bottom: 100px;
 }
 
 .card {
     width: 350px;
     height: 500px;
+    display: flex;
     position: relative;
+    flex-direction: column;
 }
 
 .list-price {
@@ -125,7 +128,7 @@ main {
 
 .sub-img {
     position: absolute;
-    bottom: 509px;
+    bottom: 505px;
 }
 
 .card img {
@@ -159,8 +162,14 @@ main {
     text-decoration: line-through;
 }
 
-
-
+.sostenibility2 {
+    color: white;
+    background-color: green;
+    padding: 5px 7px 5px 7px;;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
 /* fine main*/
 
 /* inizio footer */
@@ -172,8 +181,6 @@ main {
     width: 100%;
     height: 100px;
     background-color: rgb(0, 0, 0);
-    margin-top: 50px;
-    
 }
 
 .sub-container3 {
